@@ -1,0 +1,23 @@
+{
+  "title": "Hastes codificadas para scanbody: extensões impressas em 3D para escaneamento intraoral de arcada total",
+  "upload_type": "software",
+  "description": "<p>Extensões impressas em 3D, com codificação geométrica, que se encaixam no scanbody para facilitar o escaneamento intraoral de arcada total sobre implantes. Cada haste combina comprimento, largura, tipo de símbolo e espaçamento assimétrico diferentes, para o software não confundir scanbodies vizinhos. Inclui gerador paramétrico em Python, sem dependências, adaptável a qualquer scanbody cilíndrico, arquivos STL e instruções de impressão e uso.</p><p>3D-printable, geometrically coded scan body extensions for complete-arch intraoral implant scanning, with a dependency-free parametric Python generator, STL files and printing/usage instructions. Experimental accessory, not a registered medical device.</p>",
+  "creators": [
+    {
+      "name": "Ostarde, Rafael Lima Verde",
+      "affiliation": "Universidade de Fortaleza (Unifor)"
+    }
+  ],
+  "keywords": [
+    "dentistry",
+    "dental implants",
+    "intraoral scanning",
+    "scan body",
+    "complete-arch",
+    "3D printing",
+    "open hardware"
+  ],
+  "license": "MIT",
+  "language": "por",
+  "version": "1.0.0"
+}
