@@ -1,6 +1,10 @@
 cff-version: 1.2.0
 message: "Se usar este material, cite-o como abaixo."
 title: "Hastes codificadas para scanbody"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23069685"
+    description: "Zenodo"
 abstract: >-
   3D-printable, geometrically coded scan body extensions for complete-arch
   intraoral implant scanning, with a dependency-free parametric Python
@@ -24,6 +28,5 @@ keywords:
   - complete-arch
   - 3D printing
   - open hardware
-# Depois de gerar o DOI no Zenodo, descomente e preencha:
-# doi: "10.5281/zenodo.XXXXXXX"
-# repository-code: "https://github.com/USUARIO/haste-scanbody"
+doi: "10.5281/zenodo.23069685"
+repository-code: "https://github.com/rlimaverde-commits/haste-scanbody"

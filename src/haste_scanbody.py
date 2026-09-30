@@ -3,7 +3,7 @@ Hastes codificadas para scanbody — gerador paramétrico de STL.
 Desenvolvido para o scanbody de minipilar cônico (compatível com Neodent® Grand Morse®),
 adaptável a outros scanbodies alterando D_SCANBODY.
 
-Licença: MIT (ver LICENSE). Repositório: [URL do GitHub]  DOI: [DOI do Zenodo]
+Licença: MIT (ver LICENSE). Repositório: https://github.com/rlimaverde-commits/haste-scanbody  DOI: https://doi.org/10.5281/zenodo.23069685
 
 Geometria: um anel (luva, com fenda vertical opcional oposta à haste) que desliza sobre o cilindro do scanbody + uma haste
 retangular horizontal (com chanfro num dos lados) com marcações em relevo no topo. Cada variante tem um

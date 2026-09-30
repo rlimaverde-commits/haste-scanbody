@@ -1,5 +1,7 @@
 # Hastes codificadas para scanbody
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23069685.svg)](https://doi.org/10.5281/zenodo.23069685)
+
 Hastes impressas em 3D que se encaixam no scanbody e dão a cada implante uma forma única. Assim o scanner intraoral não se perde nas regiões lisas entre implantes, durante o escaneamento de arcada total.
 
 É uma alternativa de baixo custo aos scanbodies horizontais comerciais e não depende do sistema de implante: o script adapta o anel a qualquer scanbody cilíndrico mudando uma medida.
@@ -77,7 +79,7 @@ O conjunto de hastes unidas **não serve como index nem como guia de verificaç�
 
 Use o botão **"Cite this repository"** do GitHub ou o DOI do Zenodo:
 
-> Ostarde RLV. *Hastes codificadas para scanbody* [software e modelos 3D]. Versão 1.0.0. Zenodo; 2026. doi:[DOI]
+> Ostarde RLV. *Hastes codificadas para scanbody* [software e modelos 3D]. Versão 1.0.0. Zenodo; 2026. doi:[10.5281/zenodo.23069685](https://doi.org/10.5281/zenodo.23069685)
 
 ## Licença
 
