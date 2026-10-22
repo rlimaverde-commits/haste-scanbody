@@ -12,7 +12,7 @@ Cada haste se encaixa num scanbody de minipilar cônico e dá a ele uma forma ú
 | `haste_D_misto_21mm_L4.5_fenda0.6.stl` | 21 mm | 4,5 mm | cilindro, triângulo, quadrado |
 | `src/haste_scanbody.py` | — | — | Gerador paramétrico (Python 3, sem bibliotecas extras) |
 
-Todas têm anel de 4 mm de altura com fenda de 0,6 mm oposta à haste, e chanfro de 0,5 mm num dos lados da haste. Use uma haste diferente em cada implante da arcada.
+Todas têm anel de 4 mm de altura com fenda de 0,6 mm oposta à haste, e chanfro de 0,5 mm num dos lados da haste. Use uma haste diferente em cada implante da arcada. Encaixado na base do scanbody, o anel afasta os tecidos moles ao redor dele e deixa o chanfro do scanbody livre e visível para o scanner.
 
 ## Antes de imprimir: medir e ajustar
 
@@ -43,7 +43,7 @@ Depois da cura, retire os suportes com cuidado e confira se a fenda está aberta
 
 1. **Desinfete** as hastes antes do uso, com método compatível com a resina (em geral, desinfecção química; não autoclavar sem confirmar com o fabricante).
 2. **Instale os scanbodies** nos minipilares com o torque indicado pelo fabricante.
-3. **Encaixe as hastes** descendo o anel pelo topo do scanbody até a base, com a fenda para o lado oposto ao da haste. Use uma haste diferente em cada implante.
+3. **Encaixe as hastes** descendo o anel pelo topo do scanbody até a base, com a fenda para o lado oposto ao da haste. Use uma haste diferente em cada implante. O anel afasta os tecidos moles ao redor do scanbody; confira se o chanfro do scanbody ficou totalmente visível acima do anel.
 4. **Direcione as hastes** para o implante vizinho, sem tocar no scanbody ao lado nem no tecido. A ponta de cada haste deve ficar a 1–3 mm da haste seguinte; se não alcançar, ajuste o comprimento em `VARIANTES`.
 5. **Una as hastes com resina** para que nenhuma mude de posição durante o escaneamento:
     - Use resina de baixa contração: acrílica autopolimerizável pela técnica do pincel ou resina fotopolimerizável.
@@ -70,6 +70,7 @@ O conjunto de hastes unidas não substitui um index nem uma guia de verificaçã
 | Haste encosta no scanbody vizinho | Diminuir o comprimento dessa haste em `VARIANTES` ou girar o anel para outra direção |
 | Símbolos pouco definidos na malha | Aumentar `MARC_ALT` ou a largura da haste; usar resina opaca e fosca |
 | Haste quebra na remoção | Aumentar `ALT_HASTE` ou a largura; usar resina mais tenaz |
+| Anel cobre o chanfro do scanbody | Reduzir `ALTURA_ANEL` (padrão 4,0 mm) até o chanfro ficar livre |
 
 ## Licença e aviso de uso
 

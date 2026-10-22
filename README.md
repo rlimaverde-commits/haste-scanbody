@@ -32,7 +32,7 @@ Desenvolvidas para o scanbody de minipilar cônico compatível com Neodent® Gra
 | D | 21 mm | 4,5 mm | cilindro, triângulo, quadrado | 2,2 e 1,0 mm |
 
 Em comum a todas:
-- Anel de 4 mm de altura, com fenda de 0,6 mm oposta à haste e folga radial de 0,05 mm, para encaixe por leve pressão.
+- Anel de 4 mm de altura, com fenda de 0,6 mm oposta à haste e folga radial de 0,05 mm, para encaixe por leve pressão. Encaixado na base do scanbody, afasta os tecidos moles ao redor dele e deixa o chanfro do scanbody livre e visível para o scanner.
 - Haste de 2 mm de altura, com chanfro de 45° (0,5 mm) num dos lados, que quebra a simetria da seção.
 - Símbolos de 1 mm de altura ocupando toda a face plana do topo.
 
@@ -55,6 +55,7 @@ Parâmetros úteis no topo do script:
 | `D_SCANBODY` | 4,80 mm | Diâmetro do scanbody |
 | `FOLGA` | 0,05 mm | Menor = encaixe mais justo |
 | `FENDA` | 0,6 mm | `0` gera anel fechado |
+| `ALTURA_ANEL` | 4,0 mm | Reduza se o anel cobrir o chanfro do scanbody |
 | `CHANFRO` | 0,5 mm | Chanfro num lado da haste |
 | `MARC_ALT` | 1,0 mm | Altura dos símbolos |
 | `VARIANTES` | A–D | Comprimento, largura, símbolos e vãos de cada haste |
@@ -64,7 +65,7 @@ O script avisa se algum vão entre símbolos ficar abaixo de 0,8 mm.
 ## Uso em resumo
 
 1. Imprima em resina (SLA, DLP ou LCD), opaca e clara. Para uso intraoral, use resina biocompatível.
-2. Encaixe uma haste diferente em cada scanbody, apontando para o implante vizinho.
+2. Encaixe uma haste diferente em cada scanbody, apontando para o implante vizinho. Confira se o chanfro do scanbody ficou visível acima do anel.
 3. Una as pontas das hastes com resina de baixa contração, para que nenhuma se mova.
 4. Escaneie em sequência contínua passando pelas hastes.
 5. Remova por cima dos scanbodies ou, com implantes divergentes, desparafusando os scanbodies e retirando tudo em bloco.
