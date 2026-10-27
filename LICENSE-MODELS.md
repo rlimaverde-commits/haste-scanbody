@@ -2,7 +2,7 @@
 
 Os modelos 3D (`stl/`), as imagens (`img/`) e a documentação (`README.md`, `docs/`) deste repositório são licenciados sob a **Creative Commons Atribuição 4.0 Internacional (CC BY 4.0)**.
 
-Copyright (c) 2026 Rafael Lima Verde Ostarde
+Copyright (c) 2026 Rafael Lima Verde Osterne
 
 Você pode copiar, redistribuir, adaptar e usar para qualquer fim, inclusive comercial, desde que dê o crédito apropriado, inclua um link para a licença e indique se houve alterações.
 
